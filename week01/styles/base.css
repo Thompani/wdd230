@@ -1,0 +1,164 @@
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HTML Selectors */
+body {
+      font-family: 'Roboto', Helvetica, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px; 
+      border: 1px solid rgba(0, 0, 0, .1);
+    
+  
+  
+}
+header {
+    background: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+  }
+
+  header h2{
+    margin-right: 20px;
+    text-align:right;
+    
+  }
+  
+
+nav {
+  background-color: rgb(9, 5, 81);
+  margin: 0 auto;
+  top: 0;
+  max-width: 100%;
+}
+
+nav ul {
+ list-style: none;
+}
+
+nav a {
+  display: block;
+  padding: .5rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+nav a:hover{
+  background-color: rgba(255,255,255,0.6);
+}
+ nav .active {
+  border-bottom: 1px solid red;
+  background-color: rgb(0,0,0,0.6);
+}
+
+
+a {
+text-decoration: underline;
+color: #0073e6; /* Optional: makes links blue */
+}
+
+section a:hover {
+text-decoration: underline; /* Optional: underline links on hover */
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin: 1rem 0 .5rem;
+}
+
+h1 {
+  border-bottom: 1px solid #ccc;
+}
+
+
+h2 {
+  font-size: 1.5rem;
+  color: navy;
+  text-align: center;
+  margin-top: 25px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+ 
+.container {
+  margin: 1rem 2vw;
+}
+.container section {
+  border: 1px solid #415541;
+  background-color: #e9f5e9;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+.container span{
+  background-color: #415541;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: .75rem 0;
+}
+.container p {
+  padding: 10px;
+}
+
+
+
+footer {
+background-color: #444;
+color: white;
+padding: 15px;
+text-align: center;
+align-content: center;
+margin-top: 20px; /* Adds some space above the footer */
+margin-bottom: 0px;
+border-top: 1px solid #ddd; /* Adds a border to the top */
+}
+
+footer a {
+  color: whitesmoke;
+}
+
+
+/* ID Selectors */
+
+#home {
+  margin-top: 125px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#section1 {
+  background-color: rgb(225, 250, 225, .5);
+}
+
+#section2 {
+  background-color: rgba(200, 200, 250, 0.5);
+
+}
+
+#section2 div {
+  margin-bottom: 1rem;
+}
+
+#section3 {
+  background-color: rgb(250, 225, 250, .5);
+}
+
+
+
