@@ -20,7 +20,7 @@
       background: #bbb;
       display: flex;
       align-items: center;
-      justify-content:center;
+      justify-content: center;
       
     }
 
@@ -51,6 +51,16 @@
     background-color: #eee;
     color: #000;
   }
+
+  #mode {
+    position: relative;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+  
   
   nav {
     background-color: rgb(9, 5, 81);
