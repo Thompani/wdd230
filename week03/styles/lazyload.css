@@ -1,0 +1,42 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* HTML Selectors */
+  main {
+        max-width: 400px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+  }
+img{
+    width: 100%;
+    background: #000;
+    animation: fade 15s;
+}  
+  @keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+  footer {
+background-color: #444;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  align-content: center;
+  margin-top: 20px; /* Adds some space above the footer */
+  margin-bottom: 0px;
+  border-top: 1px solid #ddd; /* Adds a border to the top */
+  }
+  
+  footer a {
+    color: whitesmoke;
+  }
+ 
